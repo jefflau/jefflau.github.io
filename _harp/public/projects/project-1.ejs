@@ -1,0 +1,175 @@
+<%- partial("_partials/_header.ejs") %>
+
+
+	<div id="portfolio" class="sections ws">
+		<div class="content">
+		
+			<div class="container grid1">
+				<h3 class="sections-head">What we do</h3>
+				<h2>Our work</h2>
+				
+				<div class="small-separator"></div>	
+		
+			</div>
+			
+			<div id="ajaxpage">
+				<div class="height-emulator"></div> 
+				<div class="container">
+				<h2>Ocean Butterfly Career Programs</h2>
+				<div class="small-separator sepcolor"></div>
+				<div class="clear"></div>
+					<div class="grid-4">
+						<div class="flexslider">
+							<ul class="slides">
+								<li><img src="../images/folio/ob/ob1.png" class="respimg" alt=""></li>
+								<li><img src="../images/folio/ob/ob2.png" class="respimg" alt=""></li>
+								<li><img src="../images/folio/ob/ob3.png" class="respimg" alt=""></li>
+							</ul>
+						</div>
+					</div>
+				<div class="grid-2">
+	
+					<div class="project-info">
+							<div class="project-description">
+							  <h3>Project description</h3>	
+							   <p>Ocean Butterfly entrusted us with handling the marketing and construction of their website for their WDA course. We built a simple and content focussed site to help drive students to conver to the course. Previously we helped to earn them well over 6 figures in revenue from students attending this course the year before. With data generated from the forms used last year we were able to create an even better experience concentrated around real content to drive traffic to the site and to sign up.</p>
+											   
+							</div>
+						
+							<div class="project-details">
+							  <h3>Project Details</h3>
+							  <p><span>Client</span>: Ocean Butterfly</p>
+							  <p><span>Date</span>: March, 2014</p>
+							  <p><span>Tags</span>: Web Design, Development, Marketing</p>                                        
+							</div>
+						</div>
+						
+					</div>
+	
+				</div>
+				
+				<div class="height-emulator"></div>
+				<div class="launch-holder">
+					<div class="container">
+						 <a href="http://obmusic.com/careerprograms" class="launch-project">Launch</a>
+					</div>	
+				</div>		
+			</div> 
+			     
+	  </div> 
+  </div> 
+        
+<!--=============== section contacts ===============-->
+
+	<div id="contacts" class="sections">
+		<div class="content">
+			<div class="quote-icon to-top"><i class="fa fa-angle-up"></i></div>
+			<div class="container">
+			
+				<!--contact form -->
+									
+				<div class="contactForm clear">
+					<fieldset id="contact_form">											
+								
+						<div class="grid-half">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+								
+						<div class="grid-half">
+							<label for="email" class="em">Email</label>
+							<input type="text" name="email" id="email"  class="right" />
+						</div>
+								
+						<label for="message" class="m-top">Message</label>
+						<textarea name="message"  id="message" ></textarea>
+								
+						<div class="clear"></div>
+															
+						<label>
+							<button class="submit_btn transition" id="submit_btn">SEND</button>
+						</label>
+						<div id="result"></div>
+						
+					</fieldset>
+						
+				</div>
+		
+				<div class="contact-details">
+				
+	
+					<div class="grid-2">
+						<div class="smallicon animaper phone"><i class="fa fa-mobile fa-2x"></i></div>
+						<span>+7(111)123456789</span>
+					</div>
+						
+					<div class="grid-2 showform">
+						<div class="smallicon actform  animaper"><i class="fa fa-envelope-o fa-2x"></i></div>
+						<span>yourmail@domain.com</span>
+					</div>
+						
+					<div class="grid-2">
+						<div class="smallicon animaper showmap mnv "><i class="fa fa-home fa-2x"></i></div>
+						<span>Third Main Street, 27th Brooklyn,<br> NY City 1000-204 NY</span>
+					</div>
+						
+				</div>						
+				
+			</div>
+			
+			<!--map-->
+			<div class="mapbox">
+				<div class="map-decor"></div>
+				<div class="close-map"><img src="images/close-white.png" alt=""><div class="triangle"></div></div>
+				<div id="map_canvas"></div>
+			</div>
+				
+			<!-- footer -->
+		
+			<div class="footer clear">
+			
+				<p>Cashemir  ©2014  All rights reserved.</p>
+				<div class="small-separator ws"></div>
+				
+			</div> <!--footer end-->
+			
+		</div>
+	</div><!--=============== section contacts end ===============-->
+	
+
+	
+	</div> <!--=============== wrapper end ===============-->
+		
+</div><!--=============== main end ===============-->
+
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/jpreloader.min.js"></script>
+	<script type="text/javascript" src="../js/smoothscroll.js"></script>
+	<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../js/superslides.js"></script>
+	<script type="text/javascript" src="../js/mixitup.js"></script>
+	<script type="text/javascript" defer src="../js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="../js/jquery.parallax-1.1.3.js"></script>
+	<script type="text/javascript" src="../js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script type="text/javascript" src="../js/hoverdir.js"></script>
+	<script type="text/javascript" src="../js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="../js/appear.js"></script>
+	<script type="text/javascript" src="../js/jquery.nav.js"></script>
+	<script type="text/javascript" src="../js/fitvids.js"></script>
+	<script type="text/javascript" src="../js/jquery.lavalamp.min.js"></script>
+	<script type="text/javascript" src="../js/scripts.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('.flexslider').flexslider({											
+			animation: "slide",
+			slideDirection: "horizontal",
+			slideshow: false,
+			slideshowSpeed: 3500,
+			animationDuration: 500,
+			directionNav: true,
+			controlNav: true,											
+		});
+	});
+	</script>
+</body>
+</html>

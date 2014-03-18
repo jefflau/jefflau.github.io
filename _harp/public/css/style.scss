@@ -210,7 +210,7 @@ Color styles - add you color here
 	background: #F54F36;
 	color:#fff;
 }
-#jpreBar,.patern span,.red,.nav-button span,.inner-overlay,.skillbar-bar,.serviseslider h3 span,.icon-holder,.subscriptionForm input#submitButton,#loadingProgress,.planContainer .price,.planContainer .button a, .sepcolor,.quote-icon,.skillbar-bar,#facts ul li h6,.skillbar-bar-member,.member-social-list li a,#closeProject a,#ajaxpage a.lanch-project,#clientlist,#contact_form textarea:focus,#contact_form input:focus, .owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls .clickable .owl-page:hover span,.slides-pagination a.current,.slides-pagination a:hover,.submit_btn:hover, .pagination a.current-page, .pagination a:hover , .project-details a {
+#jpreBar,.patern span,.red,.nav-button span,.inner-overlay,.skillbar-bar,.serviseslider h3 span,.icon-holder,.subscriptionForm input#submitButton,#loadingProgress,.planContainer .price,.planContainer .button a, .sepcolor,.quote-icon,.skillbar-bar,#facts ul li h6,.skillbar-bar-member,.member-social-list li a,#closeProject a,#ajaxpage a.launch-project,#clientlist,#contact_form textarea:focus,#contact_form input:focus, .owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls .clickable .owl-page:hover span,.slides-pagination a.current,.slides-pagination a:hover,.submit_btn:hover, .pagination a.current-page, .pagination a:hover , .project-details a {
 	background:#F54F36;
 }
 .ajl,.bigtext,.sections-head,.slides-container h1 span,.planContainer .options li,.error,#options li:hover,#options li.actcat,.social-list ul li a:hover,.num,.project-description h3,.project-details h3,.subcribe div#error,.subcribe div#success,.smallicon:hover,.footer, .simple-page-head .content h2 span, .post-body a, .widget h4, .search-submit, .tagcloud a:hover, #comments-title , #reply-title , .controls button:hover, .share-options a:hover, .portfolio-nav a{
@@ -1124,11 +1124,11 @@ ajax content
 	overflow: hidden;
 	display: block;
 }
-.lanch-holder {
+.launch-holder {
 	max-width:1000px;
 	margin:0 auto;
 }
-#ajaxpage  a.lanch-project{
+#ajaxpage  a.launch-project{
 	float:right;
 	padding: 10px 20px 10px 20px;
 	margin:30px -15px 0 0;
@@ -1140,7 +1140,7 @@ ajax content
   	box-shadow: 0px 1px 3px #666666; 
 	font-family: 'Oswald', sans-serif;
 }
-#closeProject a:hover, #ajaxpage   a.lanch-project:hover{
+#closeProject a:hover, #ajaxpage   a.launch-project:hover{
 	opacity:0.8;
 }
 .project-description, .project-details {
@@ -2189,7 +2189,7 @@ h1{
 #ajax-section #loader {
 	top:51px;
 }
-#ajaxpage  a.lanch-project{
+#ajaxpage  a.launch-project{
 	margin:30px 0 0 0;
 }
 
